@@ -26,4 +26,139 @@
 
 }
 
+body {
+    background-image: url(../images/page-background.jpg);
+    background-size: cover;
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-attachment: initial;
+}
+
 /*----- Custom CSS ----*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-gray);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--secondary-color);
+}
+
+section {
+    padding: 50px 0;
+}
+
+.main-btn {
+    display: inline-block;
+    border-radius: 26px;
+    transition: .2s;
+    padding: 10px 37px;
+    background-color: var(--secondary-color);
+    color: var(--text-white);
+    font-weight: 700;
+    font-family: var(--primary-font);
+    font-size: 17px;
+    text-decoration: none;
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+}
+
+.main-btn:hover {
+    background-color: var(--bg-blue);
+    color: var(--text-white);
+}
+
+h1 {
+    font-size: 70px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    margin-bottom: 16px;
+    columns: var(--text-blue);
+}
+
+h2 {
+    font-size: 45px;
+    line-height: 64px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    margin-bottom: 15px;
+    letter-spacing: 0;
+    columns: var(--text-blue);
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 64px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    margin-bottom: 15px;
+    letter-spacing: 0;
+    columns: var(--text-blue);
+}
+
+p {
+    color: var(--text-gray);
+    line-height: 28px;
+    font-size: normal;
+    font-weight: 400;
+}
+
+input:hover,
+input:focus,
+textarea:focus,
+textarea:hover,
+button {
+    border-color: var(--secondary-color) !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Navbar */
+.header-wrapper .navbar {
+    transition: .2s linear;
+}
+
+.header-wrapper .navbar-brand img {
+    max-width: 150px;
+    height: auto;
+}
+
+.header-wrapper .navbar-toggler {
+    border: 0;
+}
+
+.header-wrapper .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.header-wrapper .nav-item {
+    margin: 0 10px;
+}
+
+.header-wrapper .nav-item .nav-link {
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--text-blue);
+    font-family: var(--primary-font);
+    text-transform: uppercase;
+}
+
+.header-wrapper .nav-item .nav-link.active {
+    background-color: var(--secondary-color);
+}
+
+.header-scrolled {
+    position: fixed;
+    margin-top: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 85px;
+    background: var(--bg-white);
+    -webkit-box-shadow: 0 4px 6px rgba(12, .0, .46, .05);
+    box-shadow: 0 4px 6px rgba(12, .0, .46, .05);
+}
