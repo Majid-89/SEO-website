@@ -50,7 +50,7 @@ body {
 }
 
 section {
-    padding: 50px 0;
+    padding: 80px 0;
 }
 
 .main-btn {
@@ -148,7 +148,7 @@ button {
 }
 
 .header-wrapper .nav-item .nav-link.active {
-    background-color: var(--secondary-color);
+    color: var(--secondary-color);
 }
 
 .header-scrolled {
