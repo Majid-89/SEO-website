@@ -184,3 +184,31 @@ button {
 }
 
 /* Service section End*/
+
+/* Blog Section */
+.blog-wrapper .newsletter-wrapper {
+    background-color: var(--bg-blue);
+}
+
+.blog-wrapper .newsletter {
+    width: 50%;
+    margin: auto;
+}
+
+.blog-wrapper .form-control {
+    background-color: var(--bg-dark-blue);
+    border-color: var(--bg-dark-blue);
+    border-style: solid;
+    border-radius: 26px;
+    color: var(--text-white);
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    padding: 10px 32px;
+}
+
+.blog-wrapper input::placeholder {
+    color: var(--text-white);
+}
+
+/* Blog Section End */
