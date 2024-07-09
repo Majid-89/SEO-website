@@ -162,3 +162,25 @@ button {
     -webkit-box-shadow: 0 4px 6px rgba(12, .0, .46, .05);
     box-shadow: 0 4px 6px rgba(12, .0, .46, .05);
 }
+
+
+/* Navbar End */
+
+/* Banner */
+
+.banner-wrapper {
+    padding-top: 100px;
+}
+
+/* Banner End */
+
+/* Service section */
+.services-wrapper h3 span {
+    color: var(--secondary-color);
+}
+
+.services-wrapper .service-phone {
+    max-width: 70%;
+}
+
+/* Service section End*/
