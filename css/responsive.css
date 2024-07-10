@@ -47,6 +47,11 @@
     .header-wrapper .nav-item .nav-link {
         margin-top: 15px;
     }
+
+    /* blog */
+    .blog-wrapper .newsletter {
+        width: 100% !important;
+    }
 }
 
 @media (max-width:767px) {

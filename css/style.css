@@ -211,4 +211,14 @@ button {
     color: var(--text-white);
 }
 
+.blog-wrapper .card a {
+    text-decoration: none;
+    color: var(--text-blue);
+}
+
+.blog-wrapper .date,
+.blog-wrapper .card a:hover {
+    color: var(--secondary-color);
+}
+
 /* Blog Section End */
