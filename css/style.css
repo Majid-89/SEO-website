@@ -236,3 +236,16 @@ button {
 }
 
 /* Contact Section End*/
+/* Footer Section */
+.footer-wrapper a {
+    color: var(--text-gray);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footer-wrapper a:hover {
+    color: var(--secondary-color);
+}
+
+/* Footer Section End */
