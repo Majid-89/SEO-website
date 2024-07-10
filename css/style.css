@@ -222,3 +222,17 @@ button {
 }
 
 /* Blog Section End */
+
+/* Contact Section */
+.contact-wrapper input,
+.contact-wrapper textarea {
+    background-color: var(--bg-white);
+    border-color: var(--bg-gray);
+    border-radius: 15px;
+    color: var(--text-gray);
+    font-size: 15px;
+    font-weight: 400;
+    padding: 15px 32px 15px 21px;
+}
+
+/* Contact Section End*/
